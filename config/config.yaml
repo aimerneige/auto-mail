@@ -1,0 +1,12 @@
+host: smtp.qq.com
+port: 25
+user: example@qq.com
+pass: 123456
+to:
+  - example@gmail.com
+  - test@gmail.com
+freq: 5000
+subject: "测试邮件"
+content: |
+  这是一封测试邮件，请勿回复。
+core: 8 # CPU 内核数
