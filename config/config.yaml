@@ -1,12 +1,12 @@
-host: smtp.qq.com
-port: 25
-user: example@qq.com
-pass: 123456
-to:
+host: smtp.qq.com # 这里填邮件服务主机
+port: 25 # 邮件服务端口
+user: example@qq.com # 邮件帐号
+pass: 123456 # 密码
+to: # 收件人
   - example@gmail.com
   - test@gmail.com
-freq: 5000
-subject: "测试邮件"
+freq: 5000 # 发送间隔，单位毫秒
+subject: "测试邮件" # 邮件主题
 content: |
   这是一封测试邮件，请勿回复。
 core: 8 # CPU 内核数
